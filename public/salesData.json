@@ -1,0 +1,20 @@
+[
+  {
+    "product": "Hoodie",
+    "price": 74.00,
+    "orders": 48,
+    "ordersForLastTenDays": [22, 17, 31, 77, 25, 92, 13, 55, 42, 10]
+  },
+  {
+    "product": "Fitted Cap",
+    "price": 69.50,
+    "orders": 50,
+    "ordersForLastTenDays": [4, 8, 15, 16, 23, 42, 75, 27, 72, 14]
+  },
+  {
+    "product": "Bracelet",
+    "price": 39.05,
+    "orders": 37,
+    "ordersForLastTenDays": [62, 37, 15, 79, 82, 84, 10, 100, 73, 47]
+  }
+]

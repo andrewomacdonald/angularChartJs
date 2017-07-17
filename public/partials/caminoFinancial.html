@@ -1,0 +1,58 @@
+<div class="container" ng-controller="caminoController">
+    <div class="headers">
+      <span class="glyphicon glyphicon-menu-hamburger pull-left"></span>
+        <p>DASHBOARD</p>
+      <span class="glyphicon glyphicon-search pull-right"></span>
+    </div>
+
+    <div class="pill-menu">
+      <div>Today</div>
+      <div>Week</div>
+      <div>Month</div>
+    </div>
+
+    <div class="progressBarBlock">
+      <div class="progress progressBar">
+        <div class="progress-bar progressBarColor" role="progressbar" style = "width: {{progressBarPercentage}}%" aria-valuemin=0 aria-valuemax=100></div>
+      </div>
+      <div class="progressBarLabels">
+        <div class="pull-left">
+          <p>Orders</p>
+          <p class="numberColor">{{ordersInProgress}}</p>
+        </div>
+        <div class="pull-right">
+          <p>Completed Orders</p>
+          <p class="pull-right dropShadow numberColor">{{completedOrders}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="totalSalesBlock">
+      <p>Total Sales</p>
+      <p class="salesNumber">${{totalSales}}</p>
+    </div>
+
+    <div class="lineGraphChartBlock">
+      <canvas class="chart chart-line" chart-data="lineGraphData" chart-labels="bottomRow"
+      chart-series="series" chart-options="options" chart-click="onClick">
+      </canvas>
+    </div>
+
+    <div style="text-align:center;">
+      DONUT CHART
+      <!-- <canvas id="doughnut" class="chart chart-doughnut" chart-data="data" chart-labels="labels"></canvas> -->
+    </div>
+
+    <div class="totalSalesBlock">
+      <p>Sales</p>
+      <p class="salesNumber">{{ordersInProgress}}</p>
+    </div>
+
+    <div class="salesLegendBlock">
+      <ul ng-repeat="item in allProducts">
+          <span class="legendCircle {{item.product | removeSpaces}}Circle"></span>
+          <p>{{item.product}}</p>
+        <p class="pull-right priceColor">${{item.price}}</span>
+      <ul>
+    </div>
+</div>
