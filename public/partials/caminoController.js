@@ -31,6 +31,12 @@
       }
       caminoCtrl.productList();
 
+      $scope.colors = [
+			{ backgroundColor: 'rgba(232, 95, 86, .9)', borderColor: 'rgba(232, 95, 86, 1)' },
+			{ backgroundColor: 'rgba(254, 199, 42, 0.7)', borderColor: 'rgba(254, 199, 42, 1)'},
+			{ backgroundColor: 'rgba(41, 208, 216, 0.5)', borderColor: 'rgba(41, 208, 216, 1)'},
+		];
+
       $scope.bottomRow = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
       $scope.options = {
           scales: {
