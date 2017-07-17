@@ -1,0 +1,25 @@
+{
+  "name": "chartjs_project5",
+  "version": "1.0.0",
+  "description": "A simple mobile responsive page using Angular and Chart.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewomacdonald/angularChartJs.git"
+  },
+  "keywords": [
+    "chartjs",
+    "angular",
+    "javascript"
+  ],
+  "author": "Andrew MacDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewomacdonald/angularChartJs/issues"
+  },
+  "homepage": "https://github.com/andrewomacdonald/angularChartJs#readme"
+}
