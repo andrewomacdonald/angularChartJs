@@ -4,8 +4,8 @@ Front End Project Interview
 
 ### DIRECTIONS FOR RUNNING PAGE:
 1) Clone the repo to your local computer.
-2) Navigate to the public folder in your terminal.
-3) Once inside the public folder, run the command "npm install" to install all necessary packages.
+2) Navigate to the root folder in your terminal.
+3) Once inside the root folder, run the command "npm install" to install all necessary packages.
 4) Run the command "nodemon server.js" (or "node server.js" if you do not have nodemon installed) inside the same directory.
 5) Open your browser of choice and navigate to http://localhost:3030.
 
