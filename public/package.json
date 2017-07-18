@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/andrewomacdonald/angularChartJs#readme",
   "dependencies": {
-    "radial-progress-chart": "0.0.4"
+    "express": "^4.15.3"
   }
 }
