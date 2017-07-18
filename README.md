@@ -4,7 +4,7 @@ Front End Project Interview
 
 ### DIRECTIONS FOR RUNNING PAGE:
 1) Clone the repo to your local computer.
-2) Navigate to the front-proj/public in your terminal.
+2) Navigate to the public folder in your terminal.
 3) Once inside the public folder, run the command "npm install" to install all necessary packages.
 4) Run the command "nodemon server.js" (or "node server.js" if you do not have nodemon installed) inside the same directory.
 5) Open your browser of choice and navigate to http://localhost:3030.
@@ -19,4 +19,4 @@ Front End Project Interview
 
 4) The labels on the ring chart (HOODIE, FITTED CAP, BRACELET), in my opinion, are redundant as there is a legend right beneath it. And since the font color for each label matches a portion of the wheel, I can foresee the labels becoming unreadable if the wheel is full enough.
 
-5) There is some space that isn't being used in the legend. The "Sales" header only says the amount of sales made. I would insert somewhere in the legend how much of each product was sold as well as the price. 
+5) There is some space that isn't being used in the legend. The "Sales" header only says the amount of sales made. I would insert somewhere in the legend how much of each product was sold as well as the price.
