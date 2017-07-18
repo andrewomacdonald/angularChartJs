@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/andrewomacdonald/angularChartJs/issues"
   },
-  "homepage": "https://github.com/andrewomacdonald/angularChartJs#readme"
+  "homepage": "https://github.com/andrewomacdonald/angularChartJs#readme",
+  "dependencies": {
+    "radial-progress-chart": "0.0.4"
+  }
 }

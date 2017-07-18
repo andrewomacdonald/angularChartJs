@@ -9,7 +9,6 @@
     function caminoFactory($http) {
       factory.getProducts = function() {
         return $http.get('/products').then(function(data) {
-          console.log('inside factory');
           return data;
         });
       }

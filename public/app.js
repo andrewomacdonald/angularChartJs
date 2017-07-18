@@ -1,5 +1,5 @@
 (function() {
-  angular.module('caminoFinancial', ['ui.router', 'chart.js'])
+  angular.module('caminoFinancial', ['ui.router', 'chart.js', 'angular-progress-arc'])
     .config(['$stateProvider', function($stateProvider) {
 
       var applicationStates = [{
@@ -19,7 +19,6 @@
 
 
       applicationStates.forEach(function(state) {
-        console.log('fuudfudufuhf');
          $stateProvider.state(state);
       });
 

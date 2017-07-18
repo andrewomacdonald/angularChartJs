@@ -33,14 +33,25 @@
     </div>
 
     <div class="lineGraphChartBlock">
-      <canvas class="chart chart-line" chart-data="lineGraphData" chart-labels="bottomRow"
-      chart-series="series" chart-options="options" chart-click="onClick" chart-colors="colors">
+      <canvas class="chart chart-line" chart-data="lineGraphData" chart-labels="lineChartXAxis"
+      chart-series="series" chart-options="options" chart-click="onClick" chart-colors="lineChartColors">
       </canvas>
     </div>
 
-    <div style="text-align:center;">
-      DONUT CHART
-      <!-- <canvas id="doughnut" class="chart chart-doughnut" chart-data="data" chart-labels="labels"></canvas> -->
+    <div class="progressBarParent">
+        <div class="circles circle2">
+          <progress-arc size="100" stroke="#29D0D8" stroke-width="20" complete=".80" counter-clockwise="false">
+          </progress-arc>
+        </div>
+        <div class="circles circle1">
+          <progress-arc size="140" stroke="#FEC72A" stroke-width="20" complete=".35" counter-clockwise="false">
+          </progress-arc>
+        </div>
+        <div class="circles circle3">
+          <progress-arc size="180" stroke="#E85F56" stroke-width="20" complete=".72" counter-clockwise="false">
+          </progress-arc>
+        </div>
+      </div>
     </div>
 
     <div class="totalSalesBlock">
@@ -52,7 +63,7 @@
       <ul ng-repeat="item in allProducts">
           <span class="legendCircle {{item.product | removeSpaces}}Circle"></span>
           <p>{{item.product}}</p>
-        <p class="pull-right priceColor">${{item.price}}</span>
+        <p class="pull-right priceColor">${{item.price.toFixed(2)}}</span>
       <ul>
     </div>
 </div>
