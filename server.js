@@ -14,7 +14,8 @@ app.get('/products', function(request, response) {
     response.json(salesData);
 });
 
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/node_modules/'))
 
 var server=app.listen(app.get('port'), function() {
     console.log("We have started our server at", app.get('port'));
